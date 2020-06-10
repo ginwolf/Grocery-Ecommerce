@@ -1,9 +1,9 @@
 <?php
 
 
-$servername= "localhost";
-$username= "root";
-$password= "pccoe";
+$servername= "znci.webhop.net";
+$username= "grocery";
+$password= "Gr0c3ry^&*()";
 $dbname= "grocery";
 
 

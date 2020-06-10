@@ -25,9 +25,9 @@
       	<div class="col-10">
       		<h2>Available Brands</h2>
       	</div>
-      	<!-- <div class="col-2">
+       <div class="col-2">
       		<a href="#" data-toggle="modal" data-target="#add_brand_modal" class="btn btn-primary btn-sm">Add Brand</a>
-      	</div> -->
+      	</div>
       </div>
       
       
@@ -167,7 +167,6 @@
 <!-- Modal -->
 
 <?php include_once("./templates/footer.php"); ?>
-
 
 
 <script type="text/javascript" src="./js/brands.js"></script>

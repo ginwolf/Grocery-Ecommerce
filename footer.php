@@ -70,12 +70,14 @@ $cust= $_SESSION['customer'];
 			<div class="footer-bottom">
 				<h2 ><a href="index.php"><b>T<br>H<br>E</b>Grocery Store<span>The Best Supermarket</span></a></h2>
 				<p class="fo-para"> We Believe in providing you with the Best, Fresh and Supreme Quality products for your daily kitchen, household and much more</p>
+				<!--
 				<ul class="social-fo">
 					<li><a href="#" class=" face"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 					<li><a href="#" class=" twi"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 					<li><a href="#" class=" pin"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
 					<li><a href="#" class=" dri"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
 				</ul>
+				-->
 				<div class=" address">
 					<div class="col-md-4 fo-grid1">
 							<p><i class="fa fa-home" aria-hidden="true"></i> Address </p>

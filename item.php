@@ -302,7 +302,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 </head>
 <body>
+<!--
 <a href="offer.php"><img src="images/download.png" class="img-head" alt=""></a>
+-->
 <div class="header">
 
         <div class="container">
@@ -336,6 +338,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
             else{
                 ?>
 
+ 
             <div class="head-t">
                 <ul class="card">
                     <li><a href="login.php" ><i class="fa fa-user" aria-hidden="true"></i>Login</a></li>
@@ -350,7 +353,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
             }
 
             ?>
-            
+            <!--
             <div class="header-ri">
                 <ul class="social-top">
                     <li><a href="#" class="icon facebook"><i class="fa fa-facebook" aria-hidden="true"></i><span></span></a></li>
@@ -359,7 +362,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
                     <li><a href="#" class="icon dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i><span></span></a></li>
                 </ul>   
             </div>
-        
+            -->
 
             <?php include_once("top.php"); ?>
                     
@@ -431,11 +434,13 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
         <div class="container">
             <div class="spec ">
                 <h3>Products</h3>
+                <!--
                 <div class="ser-t">
                     <b></b>
                     <span><i></i></span>
                     <b class="line"></b>
                 </div>
+                -->
             </div>
                 <div class=" con-w3l agileinf">
                             <?php 

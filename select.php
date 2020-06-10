@@ -29,7 +29,7 @@ if(isset($_POST["id"])){
 									<h3>$pro_title</h3>
 									<p class='in-para'>$pro_desc </p>
 									<div class='price_single'>
-									  <span class='reducedfrom'><del></del> Rs $pro_price</span>
+									  <span class='reducedfrom'><del></del> &#8369; $pro_price</span>
 									
 									 <div class='clearfix'></div>
 									</div>

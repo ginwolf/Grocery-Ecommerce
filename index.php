@@ -69,7 +69,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 </head>
 <body>
+<!--
 <a href="offer.php"><img src="images/download.png" class="img-head" alt=""></a>
+-->
 <div class="header">
 
 		<div class="container">
@@ -87,6 +89,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				</ul>	
 			</div>
 			
+			<!--
 			<div class="header-ri">
 				<ul class="social-top">
 					<li><a href="#" class="icon facebook"><i class="fa fa-facebook" aria-hidden="true"></i><span></span></a></li>
@@ -95,7 +98,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<li><a href="#" class="icon dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i><span></span></a></li>
 				</ul>	
 			</div>
-		
+			-->
 
 				<?php include_once("top.php"); ?>
 					
@@ -124,11 +127,13 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<div class="container ">
 		<div class="spec ">
 			<h3>Special Offers</h3>
+			<!--
 			<div class="ser-t">
 				<b></b>
 				<span><i></i></span>
 				<b class="line"></b>
 			</div>
+			-->
 		</div>
 			<div class="tab-head ">
 				<nav class="nav-sidebar">
@@ -171,7 +176,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 											</h6>							
 										</div>
 										<div class="mid-2">
-											<p ><label> Rs <?php echo $res2['product_price'] +20;?></label><em class="item_price"> Rs <?php echo $res2['product_price'];?></em></p>
+											<p ><label> ₱ <?php echo $res2['product_price'] +20;?></label><em class="item_price"> ₱ <?php echo $res2['product_price'];?></em></p>
 											  <div class="block">
 												<div class="starbox small ghosting"> </div>
 											</div>
@@ -227,7 +232,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 											</h6>							
 										</div>
 										<div class="mid-2">
-											<p ><label> Rs <?php echo $res2['product_price'] +20;?></label><em class="item_price"> Rs <?php echo $res2['product_price'];?></em></p>
+											<p ><label> ₱ <?php echo $res2['product_price'] +20;?></label><em class="item_price"> ₱ <?php echo $res2['product_price'];?></em></p>
 											  <div class="block">
 												<div class="starbox small ghosting"> </div>
 											</div>
@@ -283,7 +288,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 											</h6>							
 										</div>
 										<div class="mid-2">
-											<p ><label> Rs <?php echo $res2['product_price'] +20;?></label><em class="item_price"> Rs <?php echo $res2['product_price'];?></em></p>
+											<p ><label> ₱ <?php echo $res2['product_price'] +20;?></label><em class="item_price"> ₱ <?php echo $res2['product_price'];?></em></p>
 											  <div class="block">
 												<div class="starbox small ghosting"> </div>
 											</div>
@@ -339,7 +344,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 											</h6>							
 										</div>
 										<div class="mid-2">
-											<p ><label> Rs <?php echo $res2['product_price'] +20;?></label><em class="item_price"> Rs <?php echo $res2['product_price'];?></em></p>
+											<p ><label> ₱ <?php echo $res2['product_price'] +20;?></label><em class="item_price"> ₱ <?php echo $res2['product_price'];?></em></p>
 											  <div class="block">
 												<div class="starbox small ghosting"> </div>
 											</div>
@@ -467,11 +472,13 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		<div class="container">
 			<div class="spec ">
 				<h3>Special Offers</h3>
+				<!--
 				<div class="ser-t">
 					<b></b>
 					<span><i></i></span>
 					<b class="line"></b>
 				</div>
+				-->
 			</div>
 				<div class=" con-w3l">
 							<?php 
@@ -502,7 +509,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 											</h6>							
 										</div>
 										<div class="mid-2">
-											<p ><label> Rs <?php echo $res2['product_price'] +20;?></label><em class="item_price"> Rs <?php echo $res2['product_price'];?></em></p>
+											<p ><label> ₱ <?php echo $res2['product_price'] +20;?></label><em class="item_price"> ₱ <?php echo $res2['product_price'];?></em></p>
 											  <div class="block">
 												<div class="starbox small ghosting"> </div>
 											</div>
@@ -533,7 +540,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 											<h6><a href="single.php">  Lady Finger</a>(250 g)</h6>							
 										</div>
 										<div class="mid-2">
-											<p ><label> Rs 5.00</label><em class="item_price"> Rs 4.50</em></p>
+											<p ><label> ₱ 5.00</label><em class="item_price"> ₱ 4.50</em></p>
 											  <div class="block">
 												<div class="starbox small ghosting"> </div>
 											</div>
@@ -555,7 +562,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 											<h6><a href="single.php"> Ribbon</a>(1 pc)</h6>							
 										</div>
 										<div class="mid-2">
-											<p ><label> Rs 4.00</label><em class="item_price"> Rs 3.50</em></p>
+											<p ><label> ₱ 4.00</label><em class="item_price"> ₱ 3.50</em></p>
 											  <div class="block">
 												<div class="starbox small ghosting"> </div>
 											</div>
@@ -577,7 +584,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 											<h6><a href="single.php">Grapes</a>(500 g)</h6>							
 										</div>
 										<div class="mid-2">
-											<p ><label> Rs 1.00</label><em class="item_price"> Rs 0.80</em></p>
+											<p ><label> ₱ 1.00</label><em class="item_price"> ₱ 0.80</em></p>
 											  <div class="block">
 												<div class="starbox small ghosting"> </div>
 											</div>
@@ -600,7 +607,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 											<h6><a href="single.php">Clips</a>(1 pack)</h6>							
 										</div>
 										<div class="mid-2">
-											<p ><label> Rs 7.00</label><em class="item_price"> Rs 6.00</em></p>
+											<p ><label> ₱ 7.00</label><em class="item_price"> ₱ 6.00</em></p>
 											  <div class="block">
 												<div class="starbox small ghosting"> </div>
 											</div>
@@ -622,7 +629,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 											<h6><a href="single.php">Conditioner</a>(250 g)</h6>							
 										</div>
 										<div class="mid-2">
-											<p ><label> Rs 5.00</label><em class="item_price"> Rs 4.50</em></p>
+											<p ><label> ₱ 5.00</label><em class="item_price"> ₱ 4.50</em></p>
 											  <div class="block">
 												<div class="starbox small ghosting"> </div>
 											</div>
@@ -644,7 +651,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 											<h6><a href="single.php">Cleaner</a>(250 kg)</h6>							
 										</div>
 										<div class="mid-2">
-											<p ><label> Rs 4.00</label><em class="item_price"> Rs 3.50</em></p>
+											<p ><label> ₱ 4.00</label><em class="item_price"> ₱ 3.50</em></p>
 											  <div class="block">
 												<div class="starbox small ghosting"> </div>
 											</div>
@@ -666,7 +673,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 											<h6><a href="single.php">Gel</a>(150 g)</h6>							
 										</div>
 										<div class="mid-2">
-											<p ><label> Rs 1.00</label><em class="item_price"> Rs 0.80</em></p>
+											<p ><label> ₱ 1.00</label><em class="item_price"> ₱ 0.80</em></p>
 											  <div class="block">
 												<div class="starbox small ghosting"> </div>
 											</div>
@@ -796,7 +803,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									<h3>Sunflower Oil(5 kg)</h3>
 									<p class="in-para"> Some attractive Heading</p>
 									<div class="price_single">
-									  <span class="reducedfrom "><del> Rs 10.00</del> Rs 9.00</span>
+									  <span class="reducedfrom "><del> ₱ 10.00</del> ₱ 9.00</span>
 									
 									 <div class="clearfix"></div>
 									</div>
@@ -828,7 +835,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									<h3>Kabuli Chana(1 kg)</h3>
 									<p class="in-para"> Some attractive Heading</p>
 									<div class="price_single">
-									  <span class="reducedfrom "><del> Rs 3.00</del> Rs 2.00</span>
+									  <span class="reducedfrom "><del> ₱ 3.00</del> ₱ 2.00</span>
 									
 									 <div class="clearfix"></div>
 									</div>
@@ -860,7 +867,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									<h3>Soya Chunks(1 kg)</h3>
 									<p class="in-para"> Some attractive Heading</p>
 									<div class="price_single">
-									  <span class="reducedfrom "><del> Rs 4.00</del> Rs 3.50</span>
+									  <span class="reducedfrom "><del> ₱ 4.00</del> ₱ 3.50</span>
 									
 									 <div class="clearfix"></div>
 									</div>
@@ -892,7 +899,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									<h3>Lays(100 g)</h3>
 									<p class="in-para"> Some attractive Heading</p>
 									<div class="price_single">
-									  <span class="reducedfrom "><del> Rs 1.00</del> Rs 0.70</span>
+									  <span class="reducedfrom "><del> ₱ 1.00</del> ₱ 0.70</span>
 									
 									 <div class="clearfix"></div>
 									</div>
@@ -924,7 +931,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									<h3>Kurkure(100 g)</h3>
 									<p class="in-para"> Some attractive Heading</p>
 									<div class="price_single">
-									  <span class="reducedfrom "><del> Rs 1.00</del> Rs 0.70</span>
+									  <span class="reducedfrom "><del> ₱ 1.00</del> ₱ 0.70</span>
 									
 									 <div class="clearfix"></div>
 									</div>
@@ -956,7 +963,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									<h3>Popcorn(250 g)</h3>
 									<p class="in-para"> Some attractive Heading</p>
 									<div class="price_single">
-									  <span class="reducedfrom "><del> Rs 2.00</del> Rs 1.00</span>
+									  <span class="reducedfrom "><del> ₱ 2.00</del> ₱ 1.00</span>
 									
 									 <div class="clearfix"></div>
 									</div>
@@ -988,7 +995,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									<h3>Nuts(250 g)</h3>
 									<p class="in-para"> Some attractive Heading</p>
 									<div class="price_single">
-									  <span class="reducedfrom "><del> Rs 4.00</del> Rs 3.50</span>
+									  <span class="reducedfrom "><del> ₱ 4.00</del> ₱ 3.50</span>
 									
 									 <div class="clearfix"></div>
 									</div>
@@ -1020,7 +1027,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									<h3>Banana(6 pcs)</h3>
 									<p class="in-para"> Some attractive Heading</p>
 									<div class="price_single">
-									  <span class="reducedfrom "><del> Rs 2.00</del> Rs 1.50</span>
+									  <span class="reducedfrom "><del> ₱ 2.00</del> ₱ 1.50</span>
 									
 									 <div class="clearfix"></div>
 									</div>
@@ -1052,7 +1059,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									<h3>Onion(1 kg)</h3>
 									<p class="in-para"> Some attractive Heading</p>
 									<div class="price_single">
-									  <span class="reducedfrom "><del> Rs 1.00</del> Rs 0.70</span>
+									  <span class="reducedfrom "><del> ₱ 1.00</del> ₱ 0.70</span>
 									
 									 <div class="clearfix"></div>
 									</div>
@@ -1084,7 +1091,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									<h3>Bitter Gourd(1 kg)</h3>
 									<p class="in-para"> Some attractive Heading</p>
 									<div class="price_single">
-									  <span class="reducedfrom "><del> Rs 2.00</del> Rs 1.00</span>
+									  <span class="reducedfrom "><del> ₱ 2.00</del> ₱ 1.00</span>
 									
 									 <div class="clearfix"></div>
 									</div>
@@ -1116,7 +1123,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									<h3>Apples(1 kg)</h3>
 									<p class="in-para"> Some attractive Heading</p>
 									<div class="price_single">
-									  <span class="reducedfrom "><del> Rs 4.00</del> Rs 3.50</span>
+									  <span class="reducedfrom "><del> ₱ 4.00</del> ₱ 3.50</span>
 									
 									 <div class="clearfix"></div>
 									</div>
@@ -1148,7 +1155,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									<h3>Honey(500 g)</h3>
 									<p class="in-para"> Some attractive Heading</p>
 									<div class="price_single">
-									  <span class="reducedfrom "><del> Rs 7.00</del> Rs 6.00</span>
+									  <span class="reducedfrom "><del> ₱ 7.00</del> ₱ 6.00</span>
 									
 									 <div class="clearfix"></div>
 									</div>
@@ -1180,7 +1187,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									<h3>Chocos(250 g)</h3>
 									<p class="in-para"> Some attractive Heading</p>
 									<div class="price_single">
-									  <span class="reducedfrom "><del> Rs 5.00</del> Rs 4.50</span>
+									  <span class="reducedfrom "><del> ₱ 5.00</del> ₱ 4.50</span>
 									
 									 <div class="clearfix"></div>
 									</div>
@@ -1212,7 +1219,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									<h3>Oats(1 kg)</h3>
 									<p class="in-para"> Some attractive Heading</p>
 									<div class="price_single">
-									  <span class="reducedfrom "><del> Rs 4.00</del> Rs 3.50</span>
+									  <span class="reducedfrom "><del> ₱ 4.00</del> ₱ 3.50</span>
 									
 									 <div class="clearfix"></div>
 									</div>
@@ -1244,7 +1251,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									<h3>Bread(500 g)</h3>
 									<p class="in-para"> Some attractive Heading</p>
 									<div class="price_single">
-									  <span class="reducedfrom "><del> Rs 1.00</del> Rs 0.80</span>
+									  <span class="reducedfrom "><del> ₱ 1.00</del> ₱ 0.80</span>
 									
 									 <div class="clearfix"></div>
 									</div>
@@ -1276,7 +1283,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									<h3>Moisturiser(500 g)</h3>
 									<p class="in-para"> Some attractive Heading</p>
 									<div class="price_single">
-									  <span class="reducedfrom "><del> Rs 1.00</del> Rs 0.80</span>
+									  <span class="reducedfrom "><del> ₱ 1.00</del> ₱ 0.80</span>
 									
 									 <div class="clearfix"></div>
 									</div>
@@ -1308,7 +1315,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									<h3>Lady Finger(250 g)</h3>
 									<p class="in-para"> Some attractive Heading</p>
 									<div class="price_single">
-									  <span class="reducedfrom "><del> Rs 1.00</del> Rs 0.80</span>
+									  <span class="reducedfrom "><del> ₱ 1.00</del> ₱ 0.80</span>
 									
 									 <div class="clearfix"></div>
 									</div>
@@ -1340,7 +1347,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									<h3>Satin Ribbon Red(1 pc)</h3>
 									<p class="in-para"> Some attractive Heading</p>
 									<div class="price_single">
-									  <span class="reducedfrom "><del> Rs 1.00</del> Rs 0.80</span>
+									  <span class="reducedfrom "><del> ₱ 1.00</del> ₱ 0.80</span>
 									
 									 <div class="clearfix"></div>
 									</div>
@@ -1372,7 +1379,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									<h3>Grapes(500 g)</h3>
 									<p class="in-para"> Some attractive Heading</p>
 									<div class="price_single">
-									  <span class="reducedfrom "><del> Rs 1.00</del> Rs 0.80</span>
+									  <span class="reducedfrom "><del> ₱ 1.00</del> ₱ 0.80</span>
 									
 									 <div class="clearfix"></div>
 									</div>
@@ -1404,7 +1411,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									<h3>Clips(1 pack)</h3>
 									<p class="in-para"> Some attractive Heading</p>
 									<div class="price_single">
-									  <span class="reducedfrom "><del> Rs 1.00</del> Rs 0.80</span>
+									  <span class="reducedfrom "><del> ₱ 1.00</del> ₱ 0.80</span>
 									
 									 <div class="clearfix"></div>
 									</div>
@@ -1436,7 +1443,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									<h3>Conditioner</h3>
 									<p class="in-para"> Some attractive Heading</p>
 									<div class="price_single">
-									  <span class="reducedfrom "><del> Rs 1.00</del> Rs 0.80</span>
+									  <span class="reducedfrom "><del> ₱ 1.00</del> ₱ 0.80</span>
 									
 									 <div class="clearfix"></div>
 									</div>
@@ -1468,7 +1475,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									<h3>Cleaner(250 kg)</h3>
 									<p class="in-para"> Some attractive Heading</p>
 									<div class="price_single">
-									  <span class="reducedfrom "><del> Rs 1.00</del> Rs 0.80</span>
+									  <span class="reducedfrom "><del> ₱ 1.00</del> ₱ 0.80</span>
 									
 									 <div class="clearfix"></div>
 									</div>
@@ -1500,7 +1507,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									<h3>Gel(150 g)</h3>
 									<p class="in-para"> Some attractive Heading</p>
 									<div class="price_single">
-									  <span class="reducedfrom "><del> Rs 1.00</del> Rs 0.80</span>
+									  <span class="reducedfrom "><del> ₱ 1.00</del> ₱ 0.80</span>
 									
 									 <div class="clearfix"></div>
 									</div>

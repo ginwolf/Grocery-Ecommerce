@@ -68,7 +68,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 </head>
 <body>
+<!--
 <a href="offer.php"><img src="images/download.png" class="img-head" alt=""></a>
+-->
 <div class="header">
 
 		<div class="container">
@@ -163,11 +165,13 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<div class="container ">
 		<div class="spec ">
 			<h3>Special Offers</h3>
+			<!--
 							<div class="ser-t">
 					<b></b>
 					<span><i></i></span>
 					<b class="line"></b>
 				</div>
+				-->
 		</div>
 						<div class=" con-w3l wthree-of">
 							<div class="col-md-3 pro-1">

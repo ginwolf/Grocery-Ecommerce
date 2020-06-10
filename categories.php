@@ -24,9 +24,9 @@
       	<div class="col-10">
       		<h2>Available Categories</h2>
       	</div>
-      	<!-- <div class="col-2">
+       <div class="col-2">
       		<a href="#" data-toggle="modal" data-target="#add_category_modal" class="btn btn-primary btn-sm">Add Category</a>
-      	</div> -->
+      	</div> 
       </div>
 
       <div class="table-responsive">

@@ -74,7 +74,7 @@ $cust= $_SESSION['customer'];
 							 <img src="<?php echo
 						 $items['image'];  ?>" alt="phone" class="img-fluid mb-2" >
 
-						 <h6 class="card-title bg-danger text-white p-2"> Rs <?php echo $items['price'];  ?></h6> 
+						 <h6 class="card-title bg-danger text-white p-2"> Php <?php echo $items['price'];  ?></h6> 
 
 						 <h6 class="card-title bg-info text-white p-2"> Quantity <?php echo $items['quantity'];?></h6>
 
@@ -90,8 +90,8 @@ $cust= $_SESSION['customer'];
 					<img src="./images/delivery-truck.png" alt="" style="height:50px; width: 50px;">
 					Choose Delivery Method</h4>
 					<select class="selectpicker" name="delivery">
-							<option value="1">Normal (+ 50 Rs)</option>
-							<option value="2">Express (+ 150 Rs)</option>
+							<option value="1">Normal (+ 50 Php)</option>
+							<option value="2">Express (+ 150 Php)</option>
 					</select>
 	</div>
 
@@ -106,7 +106,7 @@ $cust= $_SESSION['customer'];
 	</div>
 
 	<div class="text-center text-danger mb-5">
-			<button name="payment" class="btn btn-info" >Confirm & Pay Rs <?php echo $tot;?> + Shipping </button>
+			<button name="payment" class="btn btn-info" >Confirm & Pay Php <?php echo $tot;?> + Shipping </button>
 	</div>
 </form>
 

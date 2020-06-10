@@ -1,6 +1,9 @@
 <?php
 session_start();
-$cust= $_SESSION['customer'];
+if(isset($_SESSION['customer']))
+{
+	$cust= $_SESSION['customer'];
+}
 include("connection.php");
 error_reporting(0);
 ?>
@@ -67,7 +70,11 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 </head>
 <body>
+
+<!--
 <a href="offer.php"><img src="images/download.png" class="img-head" alt=""></a>
+-->
+
 <div class="header">
 
 		<div class="container">
@@ -106,7 +113,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<li><a href="login.php" ><i class="fa fa-user" aria-hidden="true"></i>Login</a></li>
 					<li><a href="register.php" ><i class="fa fa-arrow-right" aria-hidden="true"></i>Register</a></li>
 					<li><a href="vendor-index.php" ><i class="fa fa-user" aria-hidden="true"></i>Vendor Login</a></li>
+					<!--
 					<li><a href="about.php" ><i class="fa fa-file-text-o" aria-hidden="true"></i>About Us</a></li>
+					-->
 					<li><a href="shipping.php" ><i class="fa fa-ship" aria-hidden="true"></i>Shipping</a></li>
 				</ul>	
 			</div>	 
@@ -115,6 +124,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			}
 			?>
 			
+			<!--
 			<div class="header-ri">
 				<ul class="social-top">
 					<li><a href="#" class="icon facebook"><i class="fa fa-facebook" aria-hidden="true"></i><span></span></a></li>
@@ -123,7 +133,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<li><a href="#" class="icon dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i><span></span></a></li>
 				</ul>	
 			</div>
-		
+			-->
 
 				<?php include_once("top.php"); ?>
 					
@@ -176,19 +186,23 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						</div>
 						<div class="key">
 							<i class="fa fa-user" aria-hidden="true"></i>
-							<input  type="text" value="Pincode/ Zipcode" name="Pincode" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Pincode';}" required="true">
+							<input  type="text" value="Zipcode" name="Pincode" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Pincode';}" required="true">
 							<div class="clearfix"></div>
 						</div>
+
+						<!--
 						<div class="key">
 							<i class="fa fa-user" aria-hidden="true"></i>
 							<input  type="text" value="Bank IFSC No." name="IFSC" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Required During Payment';}" required="true">
 							<div class="clearfix"></div>
 						</div>
+						-->
 						<div class="key">
 							<i class="fa fa-user" aria-hidden="true"></i>
-							<input  type="text" value="PAN Card No." name="pan_card" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Required During Payment';}" required="true">
+							<input  type="text" value="Store Name" name="pan_card" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Store Name';}" required="true">
 							<div class="clearfix"></div>
-						</div>
+						</div>						
+
 						<div class="key">
 							<i class="fa fa-lock" aria-hidden="true"></i>
 							<input  type="password" value="Password" name="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="true">
@@ -215,7 +229,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							$cpasswd= $_GET['ConfirmPassword'];
 							$ifsc= $_GET['IFSC'];
 							$pan= $_GET['pan_card'];
-						
+							$ifsc= "XXX";
+							$pan= "YYY";
 
 						if($uname != "" && $email != "" && $phone != "" && $city != "" && $pincode != "" && $passwd != ""){
 

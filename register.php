@@ -122,11 +122,15 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<input  type="text" value="Username" name="Username" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Username';}" required="true">
 							<div class="clearfix"></div>
 						</div>
+
+						
 						<div class="key">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
 							<input  type="text" value="Email" name="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="true">
 							<div class="clearfix"></div>
 						</div>
+					
+
 						<div class="key">
 							<i class="fa fa-phone" aria-hidden="true"></i>
 							<input  type="text" value="Phone" name="Phone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone';}" required="true">
@@ -144,7 +148,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						</div>
 						<div class="key">
 							<i class="fa fa-user" aria-hidden="true"></i>
-							<input  type="text" value="Pincode/ Zipcode" name="Pincode" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Pincode';}" required="true">
+							<input  type="text" value="Zipcode" name="Pincode" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Pincode';}" required="true">
 							<div class="clearfix"></div>
 						</div>
 						<div class="key">
@@ -165,6 +169,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 							$uname= $_GET['Username'];
 							$email= $_GET['Email'];
+							//$email= "xxx@gmail.com";
 							$phone= $_GET['Phone'];
 							$street= $_GET['Street'];
 							$city= $_GET['City'];
