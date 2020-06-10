@@ -133,12 +133,12 @@ $textversion= 'Forgot Password';
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'rfidlibrarypccoe@gmail.com';                 // SMTP username
-$mail->Password = '14785269';                           // SMTP password
+$mail->Username = 'onlinestore63019@gmail.com';                 // SMTP username
+$mail->Password = 'Skidrow12#$%';                           // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;                                    // TCP port to connect to
 
-$mail->setFrom('rfidlibrarypccoe@gmail.com', 'Grocery Store');
+$mail->setFrom('onlinestore63019@gmail.com', 'Online Store');
 $mail->addAddress($email);               // Name is optional
 
 $mail->isHTML(true);

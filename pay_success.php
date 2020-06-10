@@ -95,12 +95,12 @@ $textversion= 'Order Received';
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'rfidlibrarypccoe@gmail.com';                 // SMTP username
-$mail->Password = '14785269';                           // SMTP password
+$mail->Username = 'onlinestore63019@gmail.com';                 // SMTP username
+$mail->Password = 'Skidrow12#$%';                           // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;                                    // TCP port to connect to
 
-$mail->setFrom('rfidlibrarypccoe@gmail.com', 'Grocery Store');
+$mail->setFrom('rfidlibrarypccoe@gmail.com', 'Online Store');
 $mail->addAddress($vendor);               // Name is optional
 
 $mail->isHTML(true);
@@ -128,12 +128,12 @@ $textversion= 'Order Successful';
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'rfidlibrarypccoe@gmail.com';                 // SMTP username
-$mail->Password = '14785269';                           // SMTP password
+$mail->Username = 'onlinestore63019@gmail.com';                 // SMTP username
+$mail->Password = 'Skidrow12#$%';                           // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;                                    // TCP port to connect to
 
-$mail->setFrom('rfidlibrarypccoe@gmail.com', 'Grocery Store');
+$mail->setFrom('onlinestore63019@gmail.com', 'Online Store');
 $mail->addAddress($cust);               // Name is optional
 
 $mail->isHTML(true);
@@ -162,12 +162,12 @@ $textversion= 'Order Successful';
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'rfidlibrarypccoe@gmail.com';                 // SMTP username
-$mail->Password = '14785269';                           // SMTP password
+$mail->Username = 'onlinestore63019@gmail.com';                 // SMTP username
+$mail->Password = 'Skidrow12#$%';                           // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;                                    // TCP port to connect to
 
-$mail->setFrom('rfidlibrarypccoe@gmail.com', 'Grocery Store');
+$mail->setFrom('onlinestore63019@gmail.com', 'Online Store');
 $mail->addAddress('gokhalehemal11@gmail.com');               // Name is optional
 
 $mail->isHTML(true);
