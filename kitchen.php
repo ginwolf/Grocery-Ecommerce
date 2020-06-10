@@ -199,11 +199,13 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		<div class="container">
 			<div class="spec ">
 				<h3>Kitchen Products</h3>
+				<!--
 				<div class="ser-t">
 					<b></b>
 					<span><i></i></span>
 					<b class="line"></b>
 				</div>
+				-->
 			</div>
 				<div class=" con-w3l agileinf">
 					<?php 
