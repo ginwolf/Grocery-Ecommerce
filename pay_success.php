@@ -100,7 +100,7 @@ $mail->Password = 'Skidrow12#$%';                           // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;                                    // TCP port to connect to
 
-$mail->setFrom('rfidlibrarypccoe@gmail.com', 'Online Store');
+$mail->setFrom('onlinestore63019@gmail.com', 'Online Store');
 $mail->addAddress($vendor);               // Name is optional
 
 $mail->isHTML(true);

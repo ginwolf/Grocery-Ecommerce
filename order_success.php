@@ -137,6 +137,8 @@ $cust= $_SESSION['customer'];
 							</tr>
 						</table>
 <?php
+
+
 require './phpmailer/PHPMailerAutoload.php';
 
 function send_email($vendor, $item, $qty, $pay_id, $sbuyer_name, $sbuyer_phone, $address){
@@ -150,12 +152,12 @@ $textversion= 'Order Received';
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'rfidlibrarypccoe@gmail.com';                 // SMTP username
-$mail->Password = '14785269';                           // SMTP password
+$mail->Username = 'onlinestore63019@gmail.com';                 // SMTP username
+$mail->Password = 'Skidow12#$%';                           // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;                                    // TCP port to connect to
 
-$mail->setFrom('rfidlibrarypccoe@gmail.com', 'Grocery Store');
+$mail->setFrom('onlinestore63019@gmail.com', 'Online Store');
 $mail->addAddress($vendor);               // Name is optional
 
 $mail->isHTML(true);
@@ -184,7 +186,7 @@ $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = 'rfidlibrarypccoe@gmail.com';                 // SMTP username
-$mail->Password = '14785269';                           // SMTP password
+$mail->Password = 'Skidrow12#$%';                           // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;                                    // TCP port to connect to
 
@@ -218,7 +220,7 @@ $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = 'rfidlibrarypccoe@gmail.com';                 // SMTP username
-$mail->Password = '14785269';                           // SMTP password
+$mail->Password = 'Skidrow12#$%';                           // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;                                    // TCP port to connect to
 
@@ -237,6 +239,8 @@ if(!$mail->send()) {
 } else {
     /*echo 'Message has been sent';*/
 }
+
+
 }
 ?>
 						<div class="text-center text-danger mb-2">
@@ -296,9 +300,9 @@ if(!$mail->send()) {
 
 							$q3= "INSERT INTO `orders`(`product_title`, `product_price`, `product_qty`, `product_image`, `vendor_name`, `payment_id`, `payment_status`, `buyer_email`, `buyer_phone`, `buyer_name`,`order_date`,`delivery_status`,`shipping_method`, `buyer_address`) VALUES ('$stitle', '$sprice', '$sqty', '$simage', '$svendor', '$spay_id', '$sstatus', '$sbuyer_email', '$sbuyer_phone', '$sbuyer_name','$date','ND','$shipping','$address')";
 							if(mysqli_query($conn, $q3)){
-								send_email($svendor, $stitle, $sqty, $spay_id, $sbuyer_name, $sbuyer_phone, $address);
-								send_email_customer($cust, $stitle, $sqty, $spay_id, $svendor_name, $svendor_phone, $svendor_address);
-								send_email_admin($stitle, $sqty, $spay_id, $svendor_name, $svendor_phone, $svendor_address, $sbuyer_name, $sbuyer_phone, $address);
+								//send_email($svendor, $stitle, $sqty, $spay_id, $sbuyer_name, $sbuyer_phone, $address);
+								//send_email_customer($cust, $stitle, $sqty, $spay_id, $svendor_name, $svendor_phone, $svendor_address);
+								//send_email_admin($stitle, $sqty, $spay_id, $svendor_name, $svendor_phone, $svendor_address, $sbuyer_name, $sbuyer_phone, $address);
 							}else {
 							    echo "Error: " . $q3 . "<br>" . mysqli_error($conn);
 							}

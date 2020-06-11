@@ -1,3 +1,17 @@
+<style>
+  .modal-dialog {
+  position: relative;
+  width: auto;
+  max-width: 900px;
+  margin: 10px;
+}
+@media (min-width: 900px) {
+  .modal-dialog {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+</style>
 <div class="nav-top">
                     <nav class="navbar navbar-default">
                     
