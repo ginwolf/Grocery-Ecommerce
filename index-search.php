@@ -58,7 +58,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					}).bind('starbox-value-changed', function(event, value) {
 					if(starbox.hasClass('random')) {
 					var val = Math.random();
-					starbox.kitchen().text(' '+val);
+					starbox.Unit().text(' '+val);
 					return val;
 					} 
 				})
@@ -77,7 +77,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		<div class="container">
 			
 			<div class="logo">
-				<h1 ><a href="index.php"><b>T<br>H<br>E</b>Grocery Store<span>The Best Supermarket</span></a></h1>
+				<h1 ><a href="index.php">Safety Enterprises<span>Basta Safety Honda. Basta Honda Safety.</span></a></h1>
 			</div>
 
 			<?php 
@@ -139,7 +139,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <div data-vide-bg="video/video">
     <div class="container">
 		<div class="banner-info">
-			<h3> A One of A Kind Marketplace </h3>	
+			<h3> Your one of a kind Motorcycle Marketplace </h3>	
 			<div class="search-form">
 				<form action="index-search.php" method="post">
 					<input type="text" placeholder="Search for over 5,000 products, categories & brands" name="search">

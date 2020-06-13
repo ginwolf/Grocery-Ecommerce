@@ -114,16 +114,16 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<li class=" active"><a href="index.php" class="hyper "><span>Home</span></a></li>	
 							
 							<li class="dropdown ">
-								<a href="#" class="dropdown-toggle  hyper" data-toggle="dropdown" ><span>Kitchen<b class="caret"></b></span></a>
+								<a href="#" class="dropdown-toggle  hyper" data-toggle="dropdown" ><span>Unit<b class="caret"></b></span></a>
 								<ul class="dropdown-menu multi">
 									<div class="row">
 										<div class="col-sm-3">
 											<ul class="multi-column-dropdown">
 			
-												<li><a href="kitchen.php?name=water_and_beverages"><i class="fa fa-angle-right" aria-hidden="true"></i>Water and Beverages</a></li>
-												<li><a href="kitchen.php?name=fruits_and_vegetables"><i class="fa fa-angle-right" aria-hidden="true"></i>Fruits & Vegetables</a></li>
-												<li><a href="kitchen.php?name=staples"> <i class="fa fa-angle-right" aria-hidden="true"></i>Staples</a></li>
-												<li><a href="kitchen.php?name=branded_food"><i class="fa fa-angle-right" aria-hidden="true"></i>Branded Food</a></li>
+												<li><a href="Unit.php?name=water_and_beverages"><i class="fa fa-angle-right" aria-hidden="true"></i>Water and Beverages</a></li>
+												<li><a href="Unit.php?name=fruits_and_vegetables"><i class="fa fa-angle-right" aria-hidden="true"></i>Fruits & Vegetables</a></li>
+												<li><a href="Unit.php?name=staples"> <i class="fa fa-angle-right" aria-hidden="true"></i>Staples</a></li>
+												<li><a href="Unit.php?name=branded_food"><i class="fa fa-angle-right" aria-hidden="true"></i>Branded Food</a></li>
 										
 											</ul>
 										
@@ -131,11 +131,11 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										<div class="col-sm-3">
 										
 											<ul class="multi-column-dropdown">
-												<li><a href="kitchen.php?name=breakfast_and_cereal"><i class="fa fa-angle-right" aria-hidden="true"></i>Breakfast &amp; Cereal</a></li>
-												<li><a href="kitchen.php?name=snacks"><i class="fa fa-angle-right" aria-hidden="true"></i>Snacks</a></li>
-												<li><a href="kitchen.php?name=spices"><i class="fa fa-angle-right" aria-hidden="true"></i>Spices</a></li>
-												<li><a href="kitchen.php?name=biscuit_and_cookies"><i class="fa fa-angle-right" aria-hidden="true"></i>Biscuit &amp; Cookie</a></li>
-												<li><a href="kitchen.php?name=sweets"><i class="fa fa-angle-right" aria-hidden="true"></i>Sweets</a></li>
+												<li><a href="Unit.php?name=breakfast_and_cereal"><i class="fa fa-angle-right" aria-hidden="true"></i>Breakfast &amp; Cereal</a></li>
+												<li><a href="Unit.php?name=snacks"><i class="fa fa-angle-right" aria-hidden="true"></i>Snacks</a></li>
+												<li><a href="Unit.php?name=spices"><i class="fa fa-angle-right" aria-hidden="true"></i>Spices</a></li>
+												<li><a href="Unit.php?name=biscuit_and_cookies"><i class="fa fa-angle-right" aria-hidden="true"></i>Biscuit &amp; Cookie</a></li>
+												<li><a href="Unit.php?name=sweets"><i class="fa fa-angle-right" aria-hidden="true"></i>Sweets</a></li>
 										
 											</ul>
 										
@@ -143,15 +143,15 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										<div class="col-sm-3">
 										
 											<ul class="multi-column-dropdown">
-												<li><a href="kitchen.php?name=pickle_and_condiment"><i class="fa fa-angle-right" aria-hidden="true"></i>Pickle & Condiment</a></li>
-												<li><a href="kitchen.php?name=instant_food"><i class="fa fa-angle-right" aria-hidden="true"></i>Instant Food</a></li>
-												<li><a href="kitchen.php?name=dryfruit"><i class="fa fa-angle-right" aria-hidden="true"></i>Dry Fruit</a></li>
-												<li><a href="kitchen.php?name=tea_and_coffee"><i class="fa fa-angle-right" aria-hidden="true"></i>Tea &amp; Coffee</a></li>
+												<li><a href="Unit.php?name=pickle_and_condiment"><i class="fa fa-angle-right" aria-hidden="true"></i>Pickle & Condiment</a></li>
+												<li><a href="Unit.php?name=instant_food"><i class="fa fa-angle-right" aria-hidden="true"></i>Instant Food</a></li>
+												<li><a href="Unit.php?name=dryfruit"><i class="fa fa-angle-right" aria-hidden="true"></i>Dry Fruit</a></li>
+												<li><a href="Unit.php?name=tea_and_coffee"><i class="fa fa-angle-right" aria-hidden="true"></i>Tea &amp; Coffee</a></li>
 										
 											</ul>
 										</div>
 										<div class="col-sm-3 w3l">
-											<a href="kitchen.php"><img src="images/me.png" class="img-responsive" alt=""></a>
+											<a href="Unit.php"><img src="images/me.png" class="img-responsive" alt=""></a>
 										</div>
 										<div class="clearfix"></div>
 									</div>	
@@ -159,7 +159,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							</li>
 							<li class="dropdown">
 							
-								<a href="#" class="dropdown-toggle hyper" data-toggle="dropdown" ><span> Personal Care <b class="caret"></b></span></a>
+								<a href="#" class="dropdown-toggle hyper" data-toggle="dropdown" ><span> Engine Oil <b class="caret"></b></span></a>
 								<ul class="dropdown-menu multi multi1">
 									<div class="row">
 										<div class="col-sm-3">
@@ -203,7 +203,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 							<li class="dropdown">
 							
-								<a href="#" class="dropdown-toggle hyper" data-toggle="dropdown" ><span> Snacks and Branded Foods<b class="caret"></b></span></a>
+								<a href="#" class="dropdown-toggle hyper" data-toggle="dropdown" ><span> Genuine Parts<b class="caret"></b></span></a>
 								<ul class="dropdown-menu multi multi1">
 									<div class="row">
 										<div class="col-sm-3">
@@ -247,7 +247,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 							<li class="dropdown">
 							
-								<a href="#" class="dropdown-toggle hyper" data-toggle="dropdown" ><span> Bakery, Eggs and Meat <b class="caret"></b></span></a>
+								<a href="#" class="dropdown-toggle hyper" data-toggle="dropdown" ><span> Replcements Parts <b class="caret"></b></span></a>
 								<ul class="dropdown-menu multi multi1">
 									<div class="row">
 										<div class="col-sm-3">
@@ -287,7 +287,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 
 							<li class="dropdown">
-								<a href="#" class="dropdown-toggle hyper" data-toggle="dropdown" ><span>Household<b class="caret"></b></span></a>
+								<a href="#" class="dropdown-toggle hyper" data-toggle="dropdown" ><span>Tire<b class="caret"></b></span></a>
 								<ul class="dropdown-menu multi multi2">
 									<div class="row">
 										<div class="col-sm-3">
@@ -303,8 +303,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										<div class="col-sm-3">
 											
 											<ul class="multi-column-dropdown">
-												<li><a href="hold.php?name=kitchen_and_dining"><i class="fa fa-angle-right" aria-hidden="true"></i>Kitchen & Dining</a></li>
-												<li><a href="hold.php?name=kitchenwear"><i class="fa fa-angle-right" aria-hidden="true"></i>Kitchen Wear</a></li>
+												<li><a href="hold.php?name=Unit_and_dining"><i class="fa fa-angle-right" aria-hidden="true"></i>Unit & Dining</a></li>
+												<li><a href="hold.php?name=Unitwear"><i class="fa fa-angle-right" aria-hidden="true"></i>Unit Wear</a></li>
 												<li><a href="hold.php?name=petcare"><i class="fa fa-angle-right" aria-hidden="true"></i>Pet Care</a></li>
 												<li><a href="hold.php?name=plasticwear"><i class="fa fa-angle-right" aria-hidden="true"></i>Plastic Wear</a></li>
 										
@@ -927,9 +927,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			<h3>Menu</h3>
 			<ul>
 				<li><a href="index.php">Home</a></li>
-				<li><a href="kitchen.php">Kitchen</a></li>
-				<li><a href="care.php">Personal Care</a></li>
-				<li><a href="hold.php">Household</a></li>						 
+				<li><a href="Unit.php">Unit</a></li>
+				<li><a href="care.php">Engine Oil</a></li>
+				<li><a href="hold.php">Tire</a></li>						 
 				<li><a href="codes.php">Short Codes</a></li> 
 				<li><a href="contact.php">Contact</a></li>
 			</ul>

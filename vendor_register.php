@@ -80,7 +80,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		<div class="container">
 			
 			<div class="logo">
-				<h1 ><a href="index.php"><b>T<br>H<br>E</b>Grocery Store<span>The Best Supermarket</span></a></h1>
+				<h1 ><a href="index.php">Safety Enterprises<span>Basta Safety Honda. Basta Honda Safety.</span></a></h1>
 			</div>
 			
 			<?php 
@@ -229,7 +229,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							$cpasswd= $_GET['ConfirmPassword'];
 							$ifsc= $_GET['IFSC'];
 							$pan= $_GET['pan_card'];
-							$ifsc= "XXX";
+							//$ifsc= "XXX"; <---- STORE NAME :)
 							$pan= "YYY";
 
 						if($uname != "" && $email != "" && $phone != "" && $city != "" && $pincode != "" && $passwd != ""){

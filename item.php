@@ -198,11 +198,11 @@ $cust= $_SESSION['customer'];
             $pname= $res;
             
         }
-        if($res == 'kitchen_and_dining'){
+        if($res == 'Unit_and_dining'){
             $pname= $res;
             
         }
-        if($res == 'kitchenwear'){
+        if($res == 'Unitwear'){
             $pname= $res;
             
         }
@@ -249,7 +249,7 @@ $cust= $_SESSION['customer'];
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta property="og:title" content="Vide" />
-<meta name="keywords" content="Kitchen" />
+<meta name="keywords" content="Unit" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //for-mobile-apps -->
@@ -310,7 +310,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
         <div class="container">
             
             <div class="logo">
-                <h1 ><a href="index.php"><b>T<br>H<br>E</b>Grocery Store<span>The Best Supermarket</span></a></h1>
+                <h1 ><a href="index.php">Safety Enterprises<span>Basta Safety Honda. Basta Honda Safety.</span></a></h1>
             </div>
             
             <?php 
@@ -383,7 +383,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-           <a href="kitchen.php"><img class="first-slide" src="images/ba.jpg" alt="First slide"></a>
+           <a href="Unit.php"><img class="first-slide" src="images/ba.jpg" alt="First slide"></a>
        
         </div>
         <div class="item">

@@ -11,18 +11,19 @@ $cust= $_SESSION['customer'];
 	<div class="container">
 		<div class="col-md-3 footer-grid">
 			<h3>About Us</h3>
-			<p> We Believe in providing you with the Best, Fresh and Supreme Quality products for your daily kitchen, household and much more </p>
+			<p> Your partner in motorcycles parts, accessories and services. </p>
 		</div>
 		<div class="col-md-3 footer-grid ">
 			<h3>Menu</h3>
 			<ul>
 				<li><a href="index.php">Home</a></li>
-				<li><a href="kitchen.php">Kitchen</a></li>
-				<li><a href="care.php">Personal Care</a></li>
-				<li><a href="snacks.php">Snacks and Branded Foods</a></li>
-				<li><a href="bake.php">Bakery, Eggs and Meat</a></li> 
-				<li><a href="hold.php">Household</a></li> 
-				<li><a href="contact.php">Contact</a></li>
+				<li><a href="Unit.php">Unit</a></li>
+				<li><a href="care.php">Engine Oil</a></li>
+				<li><a href="snacks.php">Genuine Parts</a></li>
+				<li><a href="bake.php">Replcements Parts</a></li> 
+				<li><a href="hold.php">Tire</a></li> 
+					<li><a href="tube.php">Tube</a></li> 
+
 			</ul>
 		</div>
 		<div class="col-md-3 footer-grid ">
@@ -68,8 +69,6 @@ $cust= $_SESSION['customer'];
 			?>		
 		<div class="clearfix"></div>
 			<div class="footer-bottom">
-				<h2 ><a href="index.php"><b>T<br>H<br>E</b>Grocery Store<span>The Best Supermarket</span></a></h2>
-				<p class="fo-para"> We Believe in providing you with the Best, Fresh and Supreme Quality products for your daily kitchen, household and much more</p>
 				<!--
 				<ul class="social-fo">
 					<li><a href="#" class=" face"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -80,20 +79,20 @@ $cust= $_SESSION['customer'];
 				-->
 				<div class=" address">
 					<div class="col-md-4 fo-grid1">
-							<p><i class="fa fa-home" aria-hidden="true"></i> Address </p>
+							<p><i class="fa fa-home" aria-hidden="true"></i> Mayor Jaldon St., Canelar, Zamboanga City 7000 </p>
 					</div>
 					<div class="col-md-4 fo-grid1">
-							<p><i class="fa fa-phone" aria-hidden="true"></i> +91 1234567890 </p>	
+							<p><i class="fa fa-phone" aria-hidden="true"></i> (062) 991 1178 </p>	
 					</div>
 					<div class="col-md-4 fo-grid1">
-						<p><a href="mailto:info@example.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> mart@gmail.com </a></p>
+						<p><a href="safetyenterprises@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> safetyenterprises@gmail.com </a></p>
 					</div>
 					<div class="clearfix"></div>
 					
 					</div>
 			</div>
 		<div class="copy-right">
-			<p> &copy; 2019 Grocery store. All Rights Reserved  </a></p>
+			<p> &copy; 2020 Safety Enterprises. All Rights Reserved  </a></p>
 		</div>
 	</div>
 </div>

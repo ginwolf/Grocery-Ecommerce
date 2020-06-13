@@ -30,7 +30,7 @@
                             <li class=" active"><a href="index.php" class="hyper "><span>Home</span></a></li>   
                             
                             <li class="dropdown ">
-                                <a href="#" class="dropdown-toggle  hyper" data-toggle="dropdown" ><span>Kitchen<b class="caret"></b></span></a>
+                                <a href="#" class="dropdown-toggle  hyper" data-toggle="dropdown" ><span>Unit<b class="caret"></b></span></a>
                                 <ul class="dropdown-menu multi">
                                     <div class="row">
                                         <div class="col-sm-3">
@@ -67,7 +67,7 @@
                                             </ul>
                                         </div>
                                         <div class="col-sm-3 w3l">
-                                            <a href="kitchen.php"><img src="images/me.png" class="img-responsive" alt=""></a>
+                                            <a href="Unit.php"><img src="images/me.png" class="img-responsive" alt=""></a>
                                         </div>
                                         <div class="clearfix"></div>
                                     </div>  
@@ -75,7 +75,7 @@
                             </li>
                             <li class="dropdown">
                             
-                                <a href="#" class="dropdown-toggle hyper" data-toggle="dropdown" ><span> Personal Care <b class="caret"></b></span></a>
+                                <a href="#" class="dropdown-toggle hyper" data-toggle="dropdown" ><span> Engine Oil <b class="caret"></b></span></a>
                                 <ul class="dropdown-menu multi multi1">
                                     <div class="row">
                                         <div class="col-sm-3">
@@ -119,7 +119,7 @@
 
                             <li class="dropdown">
                             
-                                <a href="#" class="dropdown-toggle hyper" data-toggle="dropdown" ><span> Snacks and Branded Foods<b class="caret"></b></span></a>
+                                <a href="#" class="dropdown-toggle hyper" data-toggle="dropdown" ><span> Genuine Parts<b class="caret"></b></span></a>
                                 <ul class="dropdown-menu multi multi1">
                                     <div class="row">
                                         <div class="col-sm-3">
@@ -163,7 +163,7 @@
 
                             <li class="dropdown">
                             
-                                <a href="#" class="dropdown-toggle hyper" data-toggle="dropdown" ><span> Bakery, Eggs and Meat <b class="caret"></b></span></a>
+                                <a href="#" class="dropdown-toggle hyper" data-toggle="dropdown" ><span> Replcements Parts <b class="caret"></b></span></a>
                                 <ul class="dropdown-menu multi multi1">
                                     <div class="row">
                                         <div class="col-sm-3">
@@ -203,7 +203,7 @@
 
 
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle hyper" data-toggle="dropdown" ><span>Household<b class="caret"></b></span></a>
+                                <a href="#" class="dropdown-toggle hyper" data-toggle="dropdown" ><span>Tire<b class="caret"></b></span></a>
                                 <ul class="dropdown-menu multi multi2">
                                     <div class="row">
                                         <div class="col-sm-3">
@@ -219,8 +219,8 @@
                                         <div class="col-sm-3">
                                             
                                             <ul class="multi-column-dropdown">
-                                                <li><a href="item.php?name=kitchen_and_dining"><i class="fa fa-angle-right" aria-hidden="true"></i>Kitchen & Dining</a></li>
-                                                <li><a href="item.php?name=kitchenwear"><i class="fa fa-angle-right" aria-hidden="true"></i>Kitchen Wear</a></li>
+                                                <li><a href="item.php?name=Unit_and_dining"><i class="fa fa-angle-right" aria-hidden="true"></i>Unit & Dining</a></li>
+                                                <li><a href="item.php?name=Unitwear"><i class="fa fa-angle-right" aria-hidden="true"></i>Unit Wear</a></li>
                                                 <li><a href="item.php?name=petcare"><i class="fa fa-angle-right" aria-hidden="true"></i>Pet Care</a></li>
                                                 <li><a href="item.php?name=plasticwear"><i class="fa fa-angle-right" aria-hidden="true"></i>Plastic Wear</a></li>
                                         
@@ -245,8 +245,52 @@
                                 </ul>
                             </li>
                             
+
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle hyper" data-toggle="dropdown" ><span>Tube<b class="caret"></b></span></a>
+                                <ul class="dropdown-menu multi multi2">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <ul class="multi-column-dropdown">
+                                                <li><a href="item.php?name=cleaning_accessories"><i class="fa fa-angle-right" aria-hidden="true"></i>Cleaning Accessories</a></li>
+                                                <li><a href="item.php?name=cookwear"><i class="fa fa-angle-right" aria-hidden="true"></i>CookWear</a></li>
+                                                <li><a href="item.php?name=detergents"><i class="fa fa-angle-right" aria-hidden="true"></i>Detergents</a></li>
+                                                <li><a href="item.php?name=gardening"><i class="fa fa-angle-right" aria-hidden="true"></i>Gardening Needs</a></li>
+                                        
+                                            </ul>
+                                        
+                                        </div>
+                                        <div class="col-sm-3">
+                                            
+                                            <ul class="multi-column-dropdown">
+                                                <li><a href="item.php?name=Unit_and_dining"><i class="fa fa-angle-right" aria-hidden="true"></i>Unit & Dining</a></li>
+                                                <li><a href="item.php?name=Unitwear"><i class="fa fa-angle-right" aria-hidden="true"></i>Unit Wear</a></li>
+                                                <li><a href="item.php?name=petcare"><i class="fa fa-angle-right" aria-hidden="true"></i>Pet Care</a></li>
+                                                <li><a href="item.php?name=plasticwear"><i class="fa fa-angle-right" aria-hidden="true"></i>Plastic Wear</a></li>
+                                        
+                                            </ul>
+                                        
+                                        </div>
+                                        <div class="col-sm-3">
+                                        
+                                            <ul class="multi-column-dropdown">
+                                                <li><a href="item.php?name=pooja_needs"><i class="fa fa-angle-right" aria-hidden="true"></i>Pooja Needs</a></li>
+                                                <li><a href="item.php?name=safety_accessories"><i class="fa fa-angle-right" aria-hidden="true"></i>Safety Accessories</a></li>
+                                                <li><a href="item.php?name=festive_decoratives"><i class="fa fa-angle-right" aria-hidden="true"></i>Festive Decoratives </a></li>
+                                                <li><a href="item.php?name=toys_and_gifts"><i class="fa fa-angle-right" aria-hidden="true"></i>Toys & Gifts </a></li>
+                                        
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-3 w3l">
+                                            <a href="hold.php"><img src="images/me2.png" class="img-responsive" alt=""></a>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>  
+                                </ul>
+                            </li>
+							
 <!--                            <li><a href="codes.php" class="hyper"> <span>FAQs</span></a></li>
- -->                            <li><a href="contact.php" class="hyper"><span>Contact Us</span></a></li>
+                         <li><a href="contact.php" class="hyper"><span>Contact Us</span></a></li> -->   
                         </ul>
                     </div>
                     </nav>

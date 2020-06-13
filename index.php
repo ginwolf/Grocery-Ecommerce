@@ -58,7 +58,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					}).bind('starbox-value-changed', function(event, value) {
 					if(starbox.hasClass('random')) {
 					var val = Math.random();
-					starbox.kitchen().text(' '+val);
+					starbox.Unit().text(' '+val);
 					return val;
 					} 
 				})
@@ -77,7 +77,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		<div class="container">
 			
 			<div class="logo">
-				<h1 ><a href="index.php"><b>T<br>H<br>E</b>Grocery Store<span>The Best Supermarket</span></a></h1>
+				<h1 ><a href="index.php">Safety Enterprises<span>Basta Safety Honda. Basta Honda Safety.</span></a></h1>
 			</div>
 			<div class="head-t">
 				<ul class="card">
@@ -108,7 +108,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <div data-vide-bg="video/video">
     <div class="container">
 		<div class="banner-info">
-			<h3> A One of A Kind Marketplace </h3>	
+			<h3> Your one of a kind Motorcycle Marketplace </h3>	
 			<div class="search-form">
 				<form action="index-search.php" method="post">
 					<input type="text" placeholder="Search for over 5,000 products, categories & brands" name="search">
@@ -126,7 +126,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <div class="content-top ">
 	<div class="container ">
 		<div class="spec ">
-			<h3>Special Offers</h3>
+			<h3>Sale !!!</h3>
 			<!--
 			<div class="ser-t">
 				<b></b>
@@ -381,7 +381,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		
 		<div class="col-md-4 m-w3ls">
 			<div class="col-md1 ">
-				<a href="kitchen.php">
+				<a href="Unit.php">
 					<img src="images/co1.jpg" class="img-responsive img" alt="">
 					<div class="big-sa">
 						<h6>New Collections</h6>
@@ -406,7 +406,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		</div>
 		<div class="col-md-4 m-w3ls">
 			<div class="col-md2 ">
-				<a href="kitchen.php">
+				<a href="Unit.php">
 					<img src="images/co2.jpg" class="img-responsive img1" alt="">
 					<div class="big-sale2">
 						<h3>Cooking <span>Oil</span></h3>
@@ -415,7 +415,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				</a>
 			</div>
 			<div class="col-md3 ">
-				<a href="kitchen.php">
+				<a href="Unit.php">
 					<img src="images/co3.jpg" class="img-responsive img1" alt="">
 					<div class="big-sale3">
 						<h3>Vegeta<span>bles</span></h3>
@@ -441,7 +441,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-         <a href="kitchen.php"> <img class="first-slide" src="images/ba.jpg" alt="First slide"></a>
+         <a href="Unit.php"> <img class="first-slide" src="images/ba.jpg" alt="First slide"></a>
        
         </div>
         <div class="item">
@@ -471,7 +471,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<div class="product">
 		<div class="container">
 			<div class="spec ">
-				<h3>Special Offers</h3>
+				<h3>Sale !!!</h3>
 				<!--
 				<div class="ser-t">
 					<b></b>

@@ -76,7 +76,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		<div class="container">
 			
 			<div class="logo">
-				<h1 ><a href="index.php"><b>T<br>H<br>E</b>Grocery Store<span>The Best Supermarket</span></a></h1>
+				<h1 ><a href="index.php">Safety Enterprises<span>Basta Safety Honda. Basta Honda Safety.</span></a></h1>
 			</div>
 			<?php 
 			if(isset($_SESSION['customer']))
@@ -161,7 +161,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		<div class=" contact-w3">	
 			<div class="col-md-5 contact-right">	
 				<img src="images/cac.jpg" class="img-responsive" alt="">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2482.432383990807!2d0.028213999961443994!3d51.52362882484525!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1423469959819" style="border:0"></iframe>
+				<iframe src="https://goo.gl/maps/Am5cxdhxYaE7JMK7A" style="border:0"></iframe>
 			</div>
 			<div class="col-md-7 contact-left">
 				<h4>Contact Information</h4>
