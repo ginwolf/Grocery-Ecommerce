@@ -16,10 +16,6 @@
         //console.log(admin);
        </script>
 
-<?php 
-        if($admin !='malbok@gmail.com'){
-      ?>
-
 
       <div class="row">
       	<div class="col-10">
@@ -30,7 +26,6 @@
       	</div>
       </div>
       
-      
 
       <div class="table-responsive">
         <table class="table table-striped table-sm">
@@ -38,63 +33,15 @@
             <tr>
               <th>#</th>
               <th>Name</th>
-<!--               <th>Action</th>
- -->            </tr>
+               <th>Action</th>
+        </tr>
           </thead>
           <tbody id="brand_list">
-            <!-- <tr>
-              <td>1</td>
-              <td>ABC</td>
-              <td>FDGR.JPG</td>
-              <td>122</td>
-              <td>eLECTRONCS</td>
-              <td>aPPLE</td>
-              <td><a class="btn btn-sm btn-info"></a><a class="btn btn-sm btn-danger">Delete</a></td>
-            </tr> -->
           </tbody>
         </table>
       </div>
 
-    <?php 
-      }
-    else{ 
-      ?>
 
-      <div class="row">
-        <div class="col-10">
-          <h2>Available Brands</h2>
-        </div>
-        <div class="col-2">
-          <a href="#" data-toggle="modal" data-target="#add_brand_modal" class="btn btn-primary btn-sm">Add Brand</a>
-        </div>
-      </div>
-      
-            <div class="table-responsive">
-        <table class="table table-striped table-sm">
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>Name</th>
-              <th>Action</th>
-            </tr>
-          </thead>
-          <tbody id="brand_list">
-            <!-- <tr>
-              <td>1</td>
-              <td>ABC</td>
-              <td>FDGR.JPG</td>
-              <td>122</td>
-              <td>eLECTRONCS</td>
-              <td>aPPLE</td>
-              <td><a class="btn btn-sm btn-info"></a><a class="btn btn-sm btn-danger">Delete</a></td>
-            </tr> -->
-          </tbody>
-        </table>
-      </div>
-
-    <?php 
-    }
-    ?>
     </main>
   </div>
 </div>

@@ -39,7 +39,7 @@ $(document).ready(function(){
 
 
 					var catSelectHTML = '<option value="">Select Category</option>';
-					$.each(resp.message.categories, function(index, value){
+					$.each(resp.categories.message, function(index, value){
 
 						catSelectHTML += '<option value="'+ value.cat_id +'">'+ value.cat_title +'</option>';
 
@@ -48,7 +48,7 @@ $(document).ready(function(){
 					$(".category_list").html(catSelectHTML);
 
 					var brandSelectHTML = '<option value="">Select Brand</option>';
-					$.each(resp.message.brands, function(index, value){
+					$.each(resp.brands.message, function(index, value){
 
 						brandSelectHTML += '<option value="'+ value.brand_id +'">'+ value.brand_title +'</option>';
 

@@ -244,7 +244,8 @@ class Products
 
 
 	public function getBrands(){
-		$q = $this->con->query("SELECT * FROM brands");
+		
+		$q = $this->con->query("SELECT * FROM brands where vendor_id = $_SESSION[vendor_id] order by brand_title");
 		$ar = [];
 		if ($q->num_rows > 0) {
 			while ($row = $q->fetch_assoc()) {
@@ -332,11 +333,12 @@ class Products
 
 	public function addBrand($name){
 		$uname= $_SESSION['user'];
+		$vendor_id = $_SESSION['vendor_id'];
 		$q = $this->con->query("SELECT * FROM brands WHERE brand_title = '$name' LIMIT 1");
 		if ($q->num_rows > 0) {
 			return ['status'=> 303, 'message'=> 'Brand already exists'];
 		}else{
-			$q = $this->con->query("INSERT INTO brands (brand_title,vendor_name) VALUES ('$name', '$uname')");
+			$q = $this->con->query("INSERT INTO brands (brand_title,vendor_name,vendor_id) VALUES ('$name', '$uname','$vendor_id')");
 			if ($q) {
 				return ['status'=> 202, 'message'=> 'New Brand added Successfully'];
 			}else{
@@ -499,8 +501,12 @@ if (isset($_POST['add_category'])) {
 }
 
 if (isset($_POST['GET_CATEGORIES'])) {
+	
+
 	$p = new Products();
-	echo json_encode($p->getCategories());
+	$_DATA['brands'] = $p->getBrands();
+	$_DATA['categories'] = $p->getCategories();
+	echo json_encode($_DATA);
 	exit();
 	
 }

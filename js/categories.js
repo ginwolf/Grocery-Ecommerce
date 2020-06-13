@@ -13,9 +13,10 @@ $(document).ready(function(){
 
 				var brandHTML = '';
 
+				alert(resp.brands.status);
 
 				if(admin != 'malbok@gmail.com'){
-				$.each(resp.message, function(index, value){
+				$.each(resp.categories.message, function(index, value){
 					brandHTML += '<tr>'+
 									'<td></td>'+
 									'<td>'+ value.cat_title +'</td>'+
@@ -24,7 +25,7 @@ $(document).ready(function(){
 				});
 			}
 			else{
-				$.each(resp.message, function(index, value){
+				$.each(resp.categories.message, function(index, value){
 					brandHTML += '<tr>'+
 									'<td></td>'+
 									'<td>'+ value.cat_title +'</td>'+
@@ -34,6 +35,15 @@ $(document).ready(function(){
 			}
 
 				$("#category_list").html(brandHTML);
+
+				var brandSelectHTML = '<option value="">Select Brand</option>';
+				$.each(resp.brands.message, function(index, value){
+
+					brandSelectHTML += '<option value="'+ value.brand_id +'">'+ value.brand_title +'</option>';
+
+				});
+
+				$(".brand_list").html(brandSelectHTML);
 
 			}
 		})

@@ -101,7 +101,7 @@
             </div>
         		<div class="col-12">
         			<div class="form-group">
-		        		<label>Product Price (Rs)</label>
+		        		<label>Product Price ₱</label>
 		        		<input type="number" name="product_price" class="form-control" placeholder="Enter Product Price">
 		        	</div>
         		</div>
@@ -173,7 +173,7 @@
             </div>
             <div class="col-12">
               <div class="form-group">
-                <label>Product Price (Rs)</label>
+                <label>Product Price ₱</label>
                 <input type="number" name="e_product_price" class="form-control" placeholder="Enter Product Price">
               </div>
             </div>

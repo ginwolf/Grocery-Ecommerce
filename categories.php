@@ -116,6 +116,16 @@
 		        		<input type="text" name="cat_title" class="form-control" placeholder="Enter Category Name">
 		        	</div>
         		</div>
+
+            <div class="col-12">
+              <div class="form-group">
+                <label>Brand Name</label>
+                <select class="form-control brand_list" name="e_brand_id">
+                  <option value="">Select Brand</option>
+                </select>
+              </div>
+            </div>
+
         		<input type="hidden" name="add_category" value="1">
         		<div class="col-12">
         			<button type="button" class="btn btn-primary add-category">Add Category</button>
@@ -149,6 +159,16 @@
                 <input type="text" name="e_cat_title" class="form-control" placeholder="Enter Brand Name">
               </div>
             </div>
+
+            <div class="col-12">
+              <div class="form-group">
+                <label>Brand Name</label>
+                <select class="form-control brand_list" name="e_brand_id">
+                  <option value="">Select Brand</option>
+                </select>
+              </div>
+            </div>
+          
             <input type="hidden" name="edit_category" value="1">
             <div class="col-12">
               <button type="button" class="btn btn-primary edit-category-btn">Update Category</button>
@@ -163,5 +183,5 @@
 <!-- Modal -->
 
 <?php include_once("./templates/footer.php"); ?>
-
-<script type="text/javascript" src="./js/categories.js"></script>
+<?php $gen = md5(uniqid(mt_rand(), true) . microtime(true)); ?>
+<script type="text/javascript" src="./js/categories.js?ver=<?php echo $gen; ?>"></script>

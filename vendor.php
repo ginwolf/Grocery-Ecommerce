@@ -179,11 +179,18 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						$passwd= $_POST['Password'];
 
 						if($email != "" && $passwd != ""){
-							$query= "SELECT * from vendors where email='$email' && password='$passwd'";
-							$data= mysqli_query($conn, $query);
-							$total= mysqli_num_rows($data);
-							if($total == 1){
+							
+							//$query= "SELECT * from vendors where email='$email' && password='$passwd'";
+							//$data= mysqli_query($conn, $query);
+							$query= "SELECT * from vendors WHERE email=? AND password=?";
+							$row = $db->preparedSelectOne($query, 'ss', [$email,$passwd]);
+							$total= count($row);
+							//print_r($row);	
+							//exit;
+
+							if($total > 0 ){
 									$_SESSION['user']= $email;
+									$_SESSION['vendor_id']= $row['id'];
 									echo "<script type='text/javascript'>  window.location='vendor-index.php'; </script>";
 							}
 							else{
